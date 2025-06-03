@@ -43,6 +43,15 @@ cd ../mcp-client
 uv pip install -r requirements.txt
 ```
 
+## Configure Environment Variables
+
+1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey) and generate your Gemini API key.
+2. In the `mcp-client` directory, rename the `.env.example` file to `.env`:
+   ```bash
+   mv .env.example .env
+   ```
+3. Open `.env` and replace the placeholder with your actual API key.
+
 ## Running the MCP Client via Terminal
 
 This guide explains how to run the MCP Client from the terminal to send queries to the chatbot.
