@@ -5,7 +5,7 @@ import os
 import csv
 
 # Initialize FastMCP server
-mcp = FastMCP("weather")
+mcp = FastMCP("demo")
 
 @mcp.tool()
 async def get_products_from_csv() -> str:
